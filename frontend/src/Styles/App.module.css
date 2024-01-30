@@ -1,0 +1,34 @@
+.container{
+    /* background-color:aquamarine; */
+    display: flex;
+    height: fit-content;
+}
+
+.form{
+    /* background-color: blue; */
+    min-width: 200px;
+}
+
+.notelist{
+    /* background-color: chocolate; */
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.noteitem{
+    background-color: rgb(227, 229, 226);
+    width: 47%;
+    padding: 1%;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    max-width: 300px;
+}
+
+.noteheader{
+    display: flex;
+    flex-direction: row-reverse;
+}
